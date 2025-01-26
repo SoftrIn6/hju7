@@ -1,0 +1,1 @@
+Thank you for using OYSTER PERSONAL FINANCE (PTY) LTD!
