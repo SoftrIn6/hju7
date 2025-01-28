@@ -3,7 +3,8 @@
         .testimonial-top-cap{
             & img{
                 margin-bottom: 50px;
-                width: 15%;
+                width: 15px;
+                height: 15px;
                 display: inline-block;
                 @media #{$md}{
                     margin-bottom: 30px;
