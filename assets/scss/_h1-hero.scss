@@ -2,12 +2,13 @@
     padding-top: 120px;
 
     // Hero Img
-    .single-slider {
-        .slider-cap-wrapper {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
+    .@media (max-width: 768px) {
+    .slider-cap-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
 
             .hero__img {
                 width: 48%;
@@ -31,10 +32,21 @@
 }
 
 // Hero Caption
-.hero__caption {
-    width: 48%;
-    overflow: hidden;
-    padding-left: 16%;
+@media (max-width: 768px) {
+    .hero__caption h1 {
+        font-size: 28px; // Reduce title size
+        line-height: 1.4;
+    }
+
+    .hero__caption p {
+        font-size: 16px;
+    }
+}
+
+    .hero__img {
+        width: 100%; // Full width on mobile
+    }
+}
 
     // Ensure padding and width adjust well on smaller screens
     @media #{$large1}{
