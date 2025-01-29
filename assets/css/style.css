@@ -3205,14 +3205,14 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 12, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__img {
-    display: flex;
+    display: none;
   }
 }
 
 @media (max-width: 575px) {
   /* line 12, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__img {
-    display: flex;
+    display: none;
   }
 }
 
@@ -3224,7 +3224,7 @@ hr {
 /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
 .slider-area .single-slider .slider-cap-wrapper .hero__caption {
   width: 48%;
-  overflow: visible;
+  overflow: hidden;
   padding-left: 16%;
 }
 
@@ -3325,7 +3325,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
-    font-size: 17px;
+    font-size: 30px;
     line-height: 1.6;
   }
 }
@@ -3333,7 +3333,7 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
-    font-size: 17px;
+    font-size: 33px;
     margin-bottom: 30px;
     line-height: 1.6;
   }
@@ -3342,7 +3342,7 @@ hr {
 @media (max-width: 575px) {
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
-    font-size: 14px;
+    font-size: 25px;
     margin-bottom: 25px;
     line-height: 1.6;
   }
@@ -3382,7 +3382,7 @@ hr {
 @media (max-width: 575px) {
   /* line 93, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
-    font-size: 12px;
+    font-size: 24px;
   }
 }
 
@@ -3391,7 +3391,7 @@ hr {
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     padding-right: 100px;
     margin-bottom: 24px;
-    font-size: 8px;
+    font-size: 15px;
   }
 }
 
@@ -3400,7 +3400,7 @@ hr {
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     padding-right: 10px;
     margin-bottom: 30px;
-    font-size: 8px;
+    font-size: 14px;
     line-height: 26px;
   }
 }
@@ -3437,22 +3437,22 @@ hr {
 /* line 146, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
 .hero-area2 .hero-cap h2 {
   color: #000a2d;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 55px;
+  font-weight: 700;
   text-transform: capitalize;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 146, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 .hero-cap h2 {
-    font-size: 22px;
+    font-size: 45px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 146, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 .hero-cap h2 {
-    font-size: 20px;
+    font-size: 40px;
   }
 }
 
@@ -3506,7 +3506,7 @@ hr {
   .slider-active button.slick-arrow {
     line-height: 40px;
     height: 40px;
-    width: 20px;
+    width: 40px;
     right: 43px;
     bottom: 10px;
   }
@@ -3517,7 +3517,7 @@ hr {
   .slider-active button.slick-arrow {
     line-height: 40px;
     height: 40px;
-    width: 20px;
+    width: 40px;
     right: 43px;
     bottom: 10px;
   }
@@ -3528,7 +3528,7 @@ hr {
   .slider-active button.slick-arrow {
     line-height: 40px;
     height: 40px;
-    width: 20px;
+    width: 40px;
     right: 43px;
   }
 }
@@ -3665,7 +3665,7 @@ hr {
 @media (max-width: 575px) {
   /* line 290, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption {
-    display: flex;
+    display: none;
   }
 }
 
@@ -3687,21 +3687,21 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 316, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption:nth-child(4) {
-    display: flex;
+    display: none;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 316, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption:nth-child(4) {
-    display: flex;
+    display: none;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 324, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption:nth-child(3) {
-    display: flex;
+    display: none;
   }
 }
 
@@ -3710,7 +3710,7 @@ hr {
   color: #fff;
   font-size: 55px;
   margin-bottom: 0;
-  display: flex;
+  display: block;
 }
 
 /* line 338, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
