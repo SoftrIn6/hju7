@@ -12,11 +12,9 @@
             .hero__img{
                 width: 48%;
                 overflow: hidden;
-                @media #{$sm}{
-                    display: none;
+                @media #{$sm}
                 }
-                @media #{$xs}{
-                    display: none;
+                @media #{$xs}
                 }
                 img{
                     width: 100%;
