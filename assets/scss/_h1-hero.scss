@@ -1,27 +1,35 @@
-
-
 .slider-area{
     padding-top: 120px;
+
     // Hero Img
-    .single-slider{
-        .slider-cap-wrapper{
+    .single-slider {
+        .slider-cap-wrapper {
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            .hero__img{
+
+            .hero__img {
                 width: 48%;
                 overflow: hidden;
-                @media #{$sm}{
-                width: 100%;
+                
+                // Ensure responsiveness
+                @media #{$sm} {
+                    width: 100%; // Adjusts the width to full on small screens
                 }
-                @media #{$xs}{
-                width: 100%;
+                @media #{$xs} {
+                    width: 100%; // Adjusts the width to full on extra small screens
                 }
-                img{
-                    width: 100%;
+
+                img {
+                    width: 100%;  // Ensures the image stretches to the full width of its container
+                    object-fit: cover;  // Ensures the image doesn't stretch unnaturally
                 }
             }
+        }
+    }
+}
+
             // Hero Caption
             .hero__caption{
                 width: 48%;
