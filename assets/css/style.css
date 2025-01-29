@@ -3281,7 +3281,7 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
-    width: 65%;
+    width: auto;
     padding-left: 3%;
     padding-bottom: 40px;
     padding-right: 2%;
@@ -3291,7 +3291,7 @@ hr {
 @media (max-width: 575px) {
   /* line 26, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption {
-    width: 100%;
+    width: auto;
     padding-left: 3%;
     padding-bottom: 90px;
     padding-right: 2%;
@@ -3342,7 +3342,7 @@ hr {
 @media (max-width: 575px) {
   /* line 65, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption h1 {
-    font-size: 25px;
+    font-size: auto;;
     margin-bottom: 25px;
     line-height: 1.6;
   }
@@ -3382,7 +3382,7 @@ hr {
 @media (max-width: 575px) {
   /* line 93, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
-    font-size: 24px;
+    font-size: auto;
   }
 }
 
@@ -3400,7 +3400,7 @@ hr {
   .slider-area .single-slider .slider-cap-wrapper .hero__caption p {
     padding-right: 10px;
     margin-bottom: 30px;
-    font-size: 14px;
+    font-size: auto;
     line-height: 26px;
   }
 }
@@ -3452,7 +3452,7 @@ hr {
 @media (max-width: 575px) {
   /* line 146, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .hero-area2 .hero-cap h2 {
-    font-size: 40px;
+    font-size: auto;
   }
 }
 
@@ -3528,14 +3528,14 @@ hr {
   .slider-active button.slick-arrow {
     line-height: 40px;
     height: 40px;
-    width: 40px;
+    width: auto;
     right: 43px;
   }
 }
 
 /* line 227, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
 .slider-active button.slick-arrow i {
-  font-size: 20px;
+  font-size: auto;
   line-height: 60px;
   color: #dcdcdc;
 }
@@ -3658,7 +3658,7 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 290, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_h1-hero.scss */
   .slider-footer .footer-wrapper .single-caption {
-    width: 20%;
+    width: auto;
   }
 }
 
@@ -3800,7 +3800,7 @@ hr {
 @media (max-width: 575px) {
   /* line 29, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-img .about-font-img img {
-    width: 100%;
+    width: auto;
   }
 }
 
@@ -3836,7 +3836,7 @@ hr {
 @media (max-width: 575px) {
   /* line 36, ../../../sponDon TI/Running Project/259.Finance_HTML/assets/scss/_about.scss */
   .about-low-area .about-img .about-back-img {
-    position: unset;
+    position: auto;
   }
 }
 
